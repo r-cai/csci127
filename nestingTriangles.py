@@ -24,10 +24,11 @@ def triangle(t, length):
     """
     
      ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### these are the only sections ###
-     ### you change in this program. ###
+    t = turtle.Turtle()
+    if length > 10:
+        for i in range(3):
+            t.forward(length)
+            t.left(120)
      ###################################    
 
 
